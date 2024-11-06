@@ -15,7 +15,7 @@ const About = () => {
       <p className="mb-10 ">
       Showcasing the incredible cooking of Michelin Star Chef Ernesto Iaccarino and the wonderful fresh flavours of the Amalfi coast, Don Alfonso 1890 has been a family-owned business since the nineteenth century. 
       </p>
-      <button className="btn btn-primary">Get Started</button>
+      <button className="btn btn-primary">Make a Reservation</button>
     </div>
   </div>
 </div>
