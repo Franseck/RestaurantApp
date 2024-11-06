@@ -10,6 +10,8 @@
 .logo {
     border: 3px solid rgb(128, 61, 59);
     border-radius: 13px;
+    cursor: pointer;
+    width: 70px;
 }
 .drop a{
    font-size: 1rem;
@@ -33,6 +35,12 @@
   .login-input::placeholder {
     color: rgb(183, 197, 197) ;
     font-size: 0.7rem;
+  }
+  .log{
+    border: 1px solid rgb(162, 162, 206);
+    padding: 3px;
+    border-radius: 5px;
+    background-color:rgb(192, 206, 206)
   }
 
 

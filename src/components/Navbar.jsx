@@ -46,10 +46,10 @@ const navigate = useNavigate();
 
   return (
     <>
-      <div className="bg-primary shadow-md">
-        <div className="container flex justify-between py-4 sm:py-3 items-center">
-          <div className="logo">
-            <img src={Logo} width={100} alt="logo" />
+      <div className="bg-primary shadow-md sm:py-2">
+        <div className="container flex justify-between py-4 sm:py-2 items-center">
+          <div className="logo flex">
+            <img src={Logo}  alt="logo" />
           </div>
           <div>
             <ul className="flex items-center gap-8 text-center">
@@ -93,8 +93,8 @@ const navigate = useNavigate();
                     
                 </div>
               </li>
-              <li className="flex gap-1 items-center hover:text-orange-300 font-general  text-secondary ">
-                     <button onClick={()=>navigate("/Login") }
+              <li className="log flex gap-1 items-center hover:text-blue-800 hover:scale-105 duration-300 font-general  text-secondary ">
+                     <button onClick={()=>navigate("/Login") } 
                           > Login </button>
                           <IoLogIn />
                     </li>
