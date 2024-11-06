@@ -6,6 +6,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @layer components {
 .logo {
     border: 3px solid rgb(128, 61, 59);
@@ -42,6 +43,8 @@
     border-radius: 5px;
     background-color:rgb(192, 206, 206)
   }
-
+.about{
+  background-image: url(./assets/res2.jpg);
+}
 
 }

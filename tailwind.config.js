@@ -12,6 +12,7 @@ module.exports = {
         secondary:"#B66D2F",
         secondaryDark:"#297272",
         third:"#1a4146",
+        forth: "#6D8B74",
       },
       fontFamily:{
         general : ["Special Elite"],
