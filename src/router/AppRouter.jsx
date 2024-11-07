@@ -28,7 +28,6 @@ const AppRouter = () => {
                 <Route  exact path="/" element={<Home />} />
                 <Route   path="/Login" element={<Login />} />
                 <Route   path="/About" element={<About />} />
-
                 <Route path="*" element={<NotFound />} />
           </Routes>
 </BrowserRouter>

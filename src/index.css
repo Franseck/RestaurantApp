@@ -52,5 +52,9 @@
 .mod{
 background-color: bisque;
 }
+.not{
+  background-image: url(./assets/res2.jpg);
+  height: 100vh;
+}
 
 }

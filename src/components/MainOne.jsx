@@ -45,7 +45,7 @@ const MainOne = () => {
            </div>
               </div>
               <div className="order-1 sm:order-2" >
-                     <img src={food} alt=""  className="w-[400px] sm:scale-125 sm:translate-y-4"/>
+                     <img data-aos="fade-left" src={food} alt=""  className="w-[400px] sm:scale-125 sm:translate-y-4"/>
               </div>
     
           </div>

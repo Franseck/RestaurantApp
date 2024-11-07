@@ -5,10 +5,10 @@ function Footer() {
     <>
       <footer className="footer footer-center bg-primary font-general p-10">
         <aside>
-          <img 
+          <img
             src={Logo}
             data-aos="fade-up"
-     data-aos-duration="2000"
+            data-aos-duration="2000"
             width="60"
             height="60"
             viewBox="0 0 24 24"
