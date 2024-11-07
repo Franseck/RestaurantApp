@@ -9,14 +9,14 @@ const MainOne = () => {
         <div className="container py-15 sm:py-0 ">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 place-items-center min-h-[500px]">
             <div className="space-y-7 text-dark order-2 sm:order-1">
-              <h1 className="text-5xl">
+              <h1  data-aos="fade-up" className="text-5xl">
                 Fresh & Healthy Food {""}{" "}
                 <span className="text-secondaryDark font-less text-7xl">
                   Delivery
                 </span>
                 {""} in Toronto
               </h1>
-              <ul className="font-less lg:pr-64">
+              <ul  data-aos="fade-up" data-aos-delay="200" className="font-less lg:pr-64">
                 <li>
                   Experience Seckin's Restaurant & Bar
                   situated in the heart of Toronto.
@@ -30,7 +30,7 @@ const MainOne = () => {
                 </li>
               </ul>
               <div className="cursor-pointer hover:text-secondaryDark hover:scale-105 duration-300 " >
-                     <button className="btn glass " onClick={()=>document.getElementById('my_modal_5').showModal()}>Reserve Now   <BsCalendarDate className="text-lg" /> </button>
+                     <button data-aos="fade-up" data-aos-delay="700"  className="btn glass " onClick={()=>document.getElementById('my_modal_5').showModal()}>Reserve Now   <BsCalendarDate className="text-lg" /> </button>
  <dialog id="my_modal_5" className="modal  modal-bottom sm:modal-middle">
   <div className="modal-box mod">
     <h3 className="font-bold text-lg">Hello!</h3>

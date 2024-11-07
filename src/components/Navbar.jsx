@@ -46,7 +46,7 @@ const navigate = useNavigate();
 
   return (
     <>
-      <div className="bg-primary shadow-md sm:py-2">
+      <div data-aos="fade" className="bg-primary shadow-md sm:py-2">
         <div className="container flex justify-between py-4 sm:py-2 items-center">
           <div className="logo flex">
             <img src={Logo}  alt="logo" />

@@ -40,16 +40,16 @@ const MainTwo = () => {
 </div>
     </div>
 <div className="absolute top-5 sm:bottom-0 sm:left-0 opacity-50 sm:opacity-70">
-    <img src={bir1} alt="" className="bir"/>
+    <img src={bir1} alt="" data-aos="fade-right" className="bir"/>
 </div>
 
-<div className="absolute  bottom-1 -left-18 sm:bottom-0 sm:left-0 opacity-50 sm:opacity-70">
+<div data-aos="fade-down-right"  className="absolute  bottom-1 -left-18 sm:bottom-0 sm:left-0 opacity-50 sm:opacity-70">
     <img src={bir2} alt="" className="bir"/>
 </div>
-<div className="absolute top-1/2 -translate-y-1/2  left-1/3 opacity-50 sm:opacity-70">
+<div data-aos="zoom-in" className="absolute top-1/2 -translate-y-1/2  left-1/3 opacity-50 sm:opacity-70">
     <img src={bir3} alt="" className="bir"/>
 </div>
-<div className="absolute top-10 -right-16 sm:right-20 opacity-50 sm:opacity-70">
+<div data-aos="fade-down-right" className="absolute top-10 -right-16 sm:right-20 opacity-50 sm:opacity-70">
     <img src={bir4} alt="" className="bir"/>
 </div>
 
