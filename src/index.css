@@ -46,5 +46,8 @@
 .about{
   background-image: url(./assets/res1.jpg);
 }
+.bir{
+  max-width: 8rem;
+}
 
 }
