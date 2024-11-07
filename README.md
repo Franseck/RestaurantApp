@@ -1,4 +1,4 @@
-LiveLink : https://seckin-store.vercel.app/
+LiveLink : https://seckin-restaurant.vercel.app/
 
 Libraries and Technologies I use :
 
