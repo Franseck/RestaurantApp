@@ -30,7 +30,18 @@ const MainOne = () => {
                 </li>
               </ul>
               <div className="cursor-pointer hover:text-secondaryDark hover:scale-105 duration-300 " >
-                     <button className="btn glass ">Reserve Now   <BsCalendarDate className="text-lg" /> </button>
+                     <button className="btn glass " onClick={()=>document.getElementById('my_modal_5').showModal()}>Reserve Now   <BsCalendarDate className="text-lg" /> </button>
+ <dialog id="my_modal_5" className="modal  modal-bottom sm:modal-middle">
+  <div className="modal-box mod">
+    <h3 className="font-bold text-lg">Hello!</h3>
+    <p className="py-4">Press ESC key or click the button below to close</p>
+    <div className="modal-action">
+      <form method="dialog">
+           <button className="btn">Close</button>
+      </form>
+    </div>
+  </div>
+</dialog>
            </div>
               </div>
               <div className="order-1 sm:order-2" >
