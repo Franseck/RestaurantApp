@@ -9,9 +9,6 @@ const [pass,setPass]= useState("")
 
     const handleSubmit =(e)=> {
         e.preventDefault()
-        if (email.toLocaleLowerCase()=== "seckin@seckin.com" && pass === "1234") {}else {
-      alert("Kullanici Bilgileri Yanlis")
-        }
       }
     return (
         <div className="loginDiv font-general">
